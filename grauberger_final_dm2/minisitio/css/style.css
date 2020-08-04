@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+	font-family: 'Abril Fatface', cursive;
+  font-size: 66px;
+  font-weight: 500;
+  line-height: 80px;
+	color: #9c9181;
+}
+h2 {
+font-family: 'Abril Fatface', cursive;
+  font-size: 48px;
+  margin-bottom: 30px;
+	color: #9c9181;
+}
+h5 {
+	ont-family: 'Abril Fatface', cursive;
+  color: #1a1a1a;
+	color: #9c9181;
+}
+p {
+  font-size: 18px;
+  color: #999999;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+.destacado{
+	color:#9c9181;
+	font-weight: 700;
+}
+a:hover { text-decoration: none; }
+
+a i { font-size: 22px; color: #ffffff; }
+
+section {
+  padding: 50px 0;
+}
+.bgfooter { background-color: #7b8a86; }
+.bgclaro { background-color: #ffffff; }
+.bgperfil { background-color: #f5f5f5; }
+.topmargin-xs {
+  margin-top: 15px;
+}
+.topmargin-sm {
+  margin-top: 30px;
+}
+.topmargin-lg {
+  margin-top: 60px;
+}
+.btn {
+  font-size: 14px;
+  padding: 15px 26px;
+  min-width: 160px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.btn-light {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: 2px solid #ffffff;
+}
+.btn i {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.text-dark {
+  color: #1a1a1a;
+}
+.divider {
+  border-bottom: 2px solid #cecece;
+	background-color: #c1cac8;
+		
+}
+.form-control {
+  font-size: 14px;
+  border: 1px solid #cacaca;
+  padding: 15px;
+  border-radius: 2px;
+  height: auto;
+}
+.form-control:focus {
+  border: 1px solid #1a1a1a;
+  outline: none;
+  box-shadow: none;
+}
+.btn-primary {
+    color: #fff;
+	background-color: #58c0bc;
+	border: none;
+}
+
+.btn-primary:hover {
+    color: #fff;
+	background-color: #3cb7a9;
+	border: none;
+}
+
+/*Menu*/
+.navbar {
+  background-color: #eae2d8;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+  min-height: 100px;
+}
+.nav-link {
+  color: #9c9181;
+}
+.nav-link:hover {
+  color: #1a1a1a;
+}
+.navbar-toggler {
+  font-size: 40px;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+.logo {
+  min-width: 80px;
+  max-width: 80px;
+}
+
+.margintop-xs { margin-top: 15px; }
+.margintop-sm { margin-top: 30px; }
+.margintop-lg { margin-top: 200px; }
+
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 0px auto;
+  text-align: center;
+}
+/*Portada*/
+#link-consignas {
+  padding-top: 200px;
+  min-height: 600px;
+}
+#link-consignas p {
+  color: #1a1a1a1a1a;
+}
+/*Mapa*/
+.mapa-container {
+  position: relative;
+  overflow: hidden;
+  margin: 20px 30px 30px 0;
+  border-radius: 2px;
+}
+.mapa-container img {
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.mapa-container:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.mapa-details {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 3000;
+}
+.mapa-details h2 {
+  margin-bottom: 0px;
+}
+.mapa-details a h2, .mapa-details a p {
+  color: #ffffff;
+}
+
+/*Consignas*/
+.consignas-container {
+  position: relative;
+  margin: 10px 0;
+}
+
+/*Carousel*/
+.carousel {
+  min-height: 240px;
+  padding: 0 40px 40px 0;
+  border-radius: 2px;
+  text-align: center;
+}
+.carousel-item p {
+  font-size: 26px;
+  font-weight: 400;
+  color: #1a1a1a;
+}
+.carousel-indicators li {
+  background-color: #1a1a1a;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  margin: 0 8px;
+  padding: 0px 20px 0px 0px;
+}
+.carousel-control-next, .carousel-control-prev {
+  color: #ffffff;
+  opacity: 1;
+  width: 5%;
+}
+.control-button {
+  background-color: #1a1a1a;
+  opacity: 1;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #1a1a1a;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.carousel-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* //////////////
+   Footer
+//////////////*/
+bgFooter{
+	background-color: #fffff; 
+}
+
+footer {
+    padding: 80px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+.logo-footer{
+	height: 100px;
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 40px;
+    line-height: normal;
+  }
+  .mapa-details h2 {
+    font-size: 32px;
+  }
+  .plans {
+    min-width: unset;
+    padding: 40px;
+  }
+  .carousel-item p {
+    font-size: 20px;
+  }
+  
+}
+@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .mapa-details h2 {
+    font-size: 30px;
+  }
+  .plans {
+    min-width: unset;
+    padding: 40px 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 1200px) {}
